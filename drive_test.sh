@@ -86,7 +86,7 @@ do
 	read device_path
 	device=$(echo $device_path | cut -d/ -f 3)
 
-	if [[ $block_devices == *$device* ]] && [[ $device_path == "/dev/"* ]] && [[ ls /dev | grep $device != "" ]]
+	if [[ $block_devices == *$device* ]] && [[ $device_path == "/dev/"* ]]
 		then
 		echo -e "\nINFO: Device found, starting tests..."
 		device_prompt=1
