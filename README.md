@@ -6,7 +6,7 @@ This script uses the package 'hdparm' to evaluate the read speed of a specified 
 It does so three times and then calculates the average read speed out of these three results.
 The user gets prompted to provide the needed information, so no manual calculation or other terminal work is necessary.
 
-After acquiring the script, make it executable by issuing the following command, assuming is is in your current working directory:
+After acquiring the script, make it executable by issuing the following command, assuming it is in your current working directory:
 ```bash
 chmod +x drive_test.sh
 ```
